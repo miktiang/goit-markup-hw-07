@@ -1,0 +1,39 @@
+// Contacts link in index.html and portfolio.html
+.contact-link {
+  display: flex;
+  margin-left: auto;
+}
+  
+.contact-link__item {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-link__item:not(:last-child) {
+  margin-right: 30px;
+}
+  
+.contact-link__link-grey {
+  color: var(--grey-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  
+  display: flex;
+  align-items: center;
+  
+  transition: color 250ms var(--cubic);
+
+  &:hover,
+  &:focus {
+    color: var(--back-blue);
+  }
+}  
+  
+.contact-link__icon-envelope,
+.contact-link__icon-phone {
+  margin-right: 10px;
+}
+  

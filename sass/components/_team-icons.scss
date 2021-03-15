@@ -1,0 +1,28 @@
+/* Team icons list*/
+.team-list__team-icons-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+.team-list__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 44px;
+  height: 44px;
+  
+  border-radius: 50%;
+  cursor: pointer;
+  
+  fill: var(--light-grey);
+  
+  transition: fill 250ms var(--cubic), background-color 250ms var(--cubic);
+
+  &:hover,
+  &:focus {
+    background-color: var(--back-blue);
+    fill: var(--white-text);
+  }
+}
