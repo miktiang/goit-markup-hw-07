@@ -4,17 +4,17 @@
   margin-left: auto;
 }
   
-.contact-link__item {
+.header__contact-item {
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
-.contact-link__item:not(:last-child) {
+.header__contact-item:not(:last-child) {
   margin-right: 30px;
 }
   
-.contact-link__link-grey {
+.header__contact-link {
   color: var(--grey-text);
   font-weight: 500;
   font-size: 14px;
@@ -32,8 +32,7 @@
   }
 }  
   
-.contact-link__icon-envelope,
-.contact-link__icon-phone {
+.header__contact-icon {
   margin-right: 10px;
 }
   

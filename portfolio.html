@@ -11,31 +11,31 @@
 <body>
     <!-- Header -->
     <header class="header">
-        <div class="container header__main-link">
-            <nav class="header__main-link">
-                <a href="./index.html" class="header--logo-black"><span class="header--logo-blue">Web</span>Studio</a>
-                <ul class="site-nav">
-                    <li class="site-nav__item">
-                        <a href="./index.html" class="site-nav__link-black">Студия</a>
+        <div class="container header__container">
+            <nav class="header__navigation">
+                <a href="./index.html" class="header--logo"><span class="header--logo-blue">Web</span>Studio</a>
+                <ul class="nav-list">
+                    <li class="nav__item">
+                        <a href="./index.html" class="nav__link">Студия</a>
                     </li>
-                    <li class="site-nav__item">
-                        <a href="./portfolio.html" class="site-nav__link-black site-nav--current">Портфолио</a>
+                    <li class="nav__item">
+                        <a href="./portfolio.html" class="nav__link nav--current">Портфолио</a>
                     </li>
-                    <li class="site-nav__item">
-                        <a href="#" class="site-nav__link-black">Контакты</a>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Контакты</a>
                     </li>
                 </ul>
             </nav>
                 <ul class="contact-link">
-                    <li class="contact-link__item">
-                        <a href="mailto:info@devstudio.com" class="contact-link__link-grey">
-                            <svg class="contact-link__icon-envelope" width="16" height="12">
+                    <li class="header__contact-item">
+                        <a href="mailto:info@devstudio.com" class="header__contact-link">
+                            <svg class="header__contact-icon" width="16" height="12">
                                 <use href="./images/icons.svg#envelope"></use>
                             </svg>info@devstudio.com</a>
                     </li>
-                    <li class="contact-link__item">
-                        <a href="tel:+380961111111" class="contact-link__link-grey">
-                            <svg class="contact-link__icon-phone" width="10" height="16">
+                    <li class="header__contact-item">
+                        <a href="tel:+380961111111" class="header__contact-link">
+                            <svg class="header__contact-icon" width="10" height="16">
                                 <use href="./images/icons.svg#phone"></use>
                             </svg>+38 096 111 11 11</a>
                     </li>
@@ -47,27 +47,27 @@
         <section class="portfolio">
             <div class="container portfolio__container">
                 <h1 class="portfolio visually-hidden">Наши проекты</h1>
-                <ul class="portfolio__filters">
-                    <li class="portfolio__item">
-                        <button class="portfolio__btn">Все</button>
+                <ul class="filters filters__list">
+                    <li class="filters__item">
+                        <button class="filters__button">Все</button>
                     </li>
-                    <li class="portfolio__item">
-                        <button class="portfolio__btn">Веб-сайты</button>
+                    <li class="filters__item">
+                        <button class="filters__button">Веб-сайты</button>
                     </li>
-                    <li class="portfolio__item">
-                        <button class="portfolio__btn">Приложения</button>
+                    <li class="filters__item">
+                        <button class="filters__button">Приложения</button>
                     </li>
-                    <li class="portfolio__item">
-                        <button class="portfolio__btn">Дизайн</button>
+                    <li class="filters__item">
+                        <button class="filters__button">Дизайн</button>
                     </li>
-                    <li class="portfolio__item">
-                        <button class="portfolio__btn">Маркетинг</button>
+                    <li class="filters__item">
+                        <button class="filters__button">Маркетинг</button>
                     </li>
                 </ul>
-                <ul class="project-list">
-                    <li class="project-list__item">
-                        <a href="#" class="project-list__link">
-                            <div class="project-list__thumb">
+                <ul class="project project-list">
+                    <li class="project__item">
+                        <a href="#" class="project__link">
+                            <div class="project__thumb">
                                 <img src="./images/technocrack.jpg" alt="technocrack" width="370">
                                     <div class="project-list__overlay">
                                         <p class="project-list__text">
@@ -78,15 +78,15 @@
                                         </p>
                                     </div>
                             </div>
-                             <div class="project-list__content">
-                                <h2 class="project-list__title">Технокряк</h2>
-                                <p class="project-list__type">Веб-сайт</p>
+                             <div class="project__content">
+                                <h2 class="project__title">Технокряк</h2>
+                                <p class="project__type">Веб-сайт</p>
                              </div>
                         </a>
                     </li>
-                    <li class="project-list__item">
-                        <a href="#" class="project-list__link">
-                            <div class="project-list__thumb">
+                    <li class="project__item">
+                        <a href="#" class="project__link">
+                            <div class="project__thumb">
                                 <img src="./images/poster-new-orlean-vs-golden-star.jpg" alt="poster-new-orlean-vs-golden-star" width="370">
                                     <div class="project-list__overlay">
                                         <p class="project-list__text">
@@ -97,15 +97,15 @@
                                          </p>
                                     </div>
                             </div>
-                             <div class="project-list__content">
-                                <h2 class="project-list__title">Постер New Orlean vs Golden Star</h2>
-                                <p class="project-list__type">Дизайн</p>
+                             <div class="project__content">
+                                <h2 class="project__title">Постер New Orlean vs Golden Star</h2>
+                                <p class="project__type">Дизайн</p>
                              </div>
                         </a>
                     </li>
-                    <li class="project-list__item">
-                        <a href="#" class="project-list__link">
-                            <div class="project-list__thumb">
+                    <li class="project__item">
+                        <a href="#" class="project__link">
+                            <div class="project__thumb">
                                 <img src="./images/restaurant-seafood.jpg" alt="restaurant-seafood" width="370">
                                      <div class="project-list__overlay">
                                         <p class="project-list__text">
@@ -116,15 +116,15 @@
                                         </p>
                                     </div>
                             </div>
-                            <div class="project-list__content">
-                                <h2 class="project-list__title">Ресторан Seafood</h2>
-                                <p class="project-list__type">Приложение</p>
+                            <div class="project__content">
+                                <h2 class="project__title">Ресторан Seafood</h2>
+                                <p class="project__type">Приложение</p>
                             </div>
                         </a>
                     </li>
-                    <li class="project-list__item">
-                        <a href="#" class="project-list__link">
-                            <div class="project-list__thumb">
+                    <li class="project__item">
+                        <a href="#" class="project__link">
+                            <div class="project__thumb">
                                 <img src="./images/project-prime.jpg" alt="project-prime" width="370">
                                     <div class="project-list__overlay">
                                         <p class="project-list__text">
@@ -135,15 +135,15 @@
                                         </p>
                                     </div>
                             </div>
-                            <div class="project-list__content">
-                                <h2 class="project-list__title">Проект Prime</h2>
-                                <p class="project-list__type">Маркетинг</p>
+                            <div class="project__content">
+                                <h2 class="project__title">Проект Prime</h2>
+                                <p class="project__type">Маркетинг</p>
                             </div>
                         </a>
                     </li>
-                    <li class="project-list__item">
-                        <a href="#" class="project-list__link">
-                            <div class="project-list__thumb">
+                    <li class="project__item">
+                        <a href="#" class="project__link">
+                            <div class="project__thumb">
                                 <img src="./images/project-boxes.jpg" alt="project-boxes" width="370">
                                     <div class="project-list__overlay">
                                         <p class="project-list__text">
@@ -154,15 +154,15 @@
                                         </p>
                                     </div>
                             </div>
-                            <div class="project-list__content">
-                                <h2 class="project-list__title">Проект Boxes</h2>
-                                <p class="project-list__type">Приложение</p>
+                            <div class="project__content">
+                                <h2 class="project__title">Проект Boxes</h2>
+                                <p class="project__type">Приложение</p>
                             </div>
                         </a>
                     </li>
-                    <li class="project-list__item">
-                        <a href="#" class="project-list__link">
-                            <div class="project-list__thumb">
+                    <li class="project__item">
+                        <a href="#" class="project__link">
+                            <div class="project__thumb">
                                 <img src="./images/inspiration-has-no-borders.jpg" alt="inspiration-has-no-borders" width="370">
                                     <div class="project-list__overlay">
                                         <p class="project-list__text">
@@ -173,15 +173,15 @@
                                         </p>
                                     </div>
                             </div>
-                            <div class="project-list__content">
-                                <h2 class="project-list__title">Inspiration has no Borders</h2>
-                                <p class="project-list__type">Веб-сайт</p>
+                            <div class="project__content">
+                                <h2 class="project__title">Inspiration has no Borders</h2>
+                                <p class="project__type">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
-                    <li class="project-list__item">
-                        <a href="#" class="project-list__link">
-                            <div class="project-list__thumb">
+                    <li class="project__item">
+                        <a href="#" class="project__link">
+                            <div class="project__thumb">
                                 <img src="./images/limited-edition.jpg" alt="limited-edition" width="370">
                                     <div class="project-list__overlay">
                                         <p class="project-list__text">
@@ -192,15 +192,15 @@
                                         </p>
                                     </div>
                             </div>
-                            <div class="project-list__content">
-                                <h2 class="project-list__title">Издание Limited Edition</h2>
-                                <p class="project-list__type">Дизайн</p>
+                            <div class="project__content">
+                                <h2 class="project__title">Издание Limited Edition</h2>
+                                <p class="project__type">Дизайн</p>
                             </div>
                         </a>
                     </li>
-                    <li class="project-list__item">
-                        <a href="#" class="project-list__link">
-                            <div class="project-list__thumb">
+                    <li class="project__item">
+                        <a href="#" class="project__link">
+                            <div class="project__thumb">
                                 <img src="./images/project-lab.jpg" alt="project-lab" width="370">
                                     <div class="project-list__overlay">
                                         <p class="project-list__text">
@@ -211,15 +211,15 @@
                                         </p>
                                     </div>
                             </div>
-                            <div class="project-list__content">
-                                <h2 class="project-list__title">Проект LAB</h2>
-                                <p class="project-list__type">Маркетинг</p>
+                            <div class="project__content">
+                                <h2 class="project__title">Проект LAB</h2>
+                                <p class="project__type">Маркетинг</p>
                             </div>
                         </a>
                     </li>
-                    <li class="project-list__item">
-                        <a href="#" class="project-list__link">
-                            <div class="project-list__thumb">
+                    <li class="project_item">
+                        <a href="#" class="project__link">
+                            <div class="project__thumb">
                                 <img src="./images/growing-business.jpg" alt="growing-business" width="370">
                                     <div class="project-list__overlay">
                                         <p class="project-list__text">
@@ -230,9 +230,9 @@
                                         </p>
                                     </div>
                             </div>
-                            <div class="project-list__content">
-                                <h2 class="project-list__title">Growing Business</h2>
-                                <p class="project-list__type">Приложение</p>
+                            <div class="project__content">
+                                <h2 class="project__title">Growing Business</h2>
+                                <p class="project__type">Приложение</p>
                              </div>
                             </a>
                     </li>
@@ -241,21 +241,20 @@
         </section>
     </main>
     <!-- Footer -->
-    <!-- Footer -->
     <footer class="footer">
         <div class="container footer__address">
             <div class="footer__address-link">
             <a href="./index.html" class="footer--logo-white"><span class="footer--logo-blue">Web</span>Studio</a>
             <address class="footer__link">
-                <ul class="address-list">
-                    <li class="address-list__item">
-                        <a href="#" class="address-list--link-white">г. Киев, пр-т Леси Украинки, 26</a>
+                <ul class="footer__contacts-list">
+                    <li class="footer__contacts-item">
+                        <a href="#" class="footer__contacts-link--white">г. Киев, пр-т Леси Украинки, 26</a>
                     </li>
-                    <li class="address-list__item">
-                        <a href="mailto:info@example.com" class="address-list--link-grey">info@example.com</a>
+                    <li class="footer__contacts-item">
+                        <a href="mailto:info@example.com" class="footer__contacts-link">info@example.com</a>
                     </li>
-                    <li class="address-list__item">
-                        <a href="tel:+380991111111" class="address-list--link-grey">+38 099 111 11 11</a>
+                    <li class="footer__contacts-item">
+                        <a href="tel:+380991111111" class="footer__contacts-link">+38 099 111 11 11</a>
                     </li>
                 </ul>
             </address>
@@ -263,29 +262,29 @@
             <div class="join">
                 <h2 class="join__title">присоединяйтесь</h2>
                 <ul class="join__list">
-                    <li class="join__link">
-                        <a class="join__link-icon" href="#">
+                    <li class="join__item">
+                        <a class="join__link" href="#">
                             <svg width="20" height="20">
                                 <use href="./images/icons.svg#instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li  class="join__link">
-                        <a class="join__link-icon" href="#">
+                    <li  class="join__item">
+                        <a class="join__link" href="#">
                             <svg width="20" height="20">
                                 <use href="./images/icons.svg#twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="join__link">
-                        <a class="join__link-icon" href="#">
+                    <li class="join__item">
+                        <a class="join__link" href="#">
                             <svg width="20" height="20">
                                 <use href="./images/icons.svg#facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="join__link">
-                        <a class="join__link-icon" href="#">
+                    <li class="join__item">
+                        <a class="join__link" href="#">
                             <svg width="20" height="20">
                                 <use href="./images/icons.svg#linkedin"></use>
                             </svg>

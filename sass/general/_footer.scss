@@ -31,11 +31,11 @@
   margin-top: 20px;
 }
   
-.address-list__item:not(:first-child) {
+.footer__contacts-item:not(:first-child) {
   margin-top: 9px;
 }
   
-.address-list--link-white {
+.footer__contacts-link--white {
   color: var(--white-text);
   font-weight: 400;
   font-size: 14px;
@@ -50,7 +50,7 @@
   }
 }
   
-.address-list--link-grey {
+.footer__contacts-link {
   color: var(--grey-text-op60);
   font-weight: 400;
   font-size: 14px;

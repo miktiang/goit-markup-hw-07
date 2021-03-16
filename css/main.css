@@ -347,7 +347,7 @@ button {
   margin-left: auto;
 }
 
-.contact-link__item {
+.header__contact-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -357,11 +357,11 @@ button {
   text-align: center;
 }
 
-.contact-link__item:not(:last-child) {
+.header__contact-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.contact-link__link-grey {
+.header__contact-link {
   color: var(--grey-text);
   font-weight: 500;
   font-size: 14px;
@@ -377,12 +377,11 @@ button {
   transition: color 250ms var(--cubic);
 }
 
-.contact-link__link-grey:hover, .contact-link__link-grey:focus {
+.header__contact-link:hover, .header__contact-link:focus {
   color: var(--back-blue);
 }
 
-.contact-link__icon-envelope,
-.contact-link__icon-phone {
+.header__contact-icon {
   margin-right: 10px;
 }
 
@@ -421,11 +420,11 @@ button {
   margin-top: 20px;
 }
 
-.address-list__item:not(:first-child) {
+.footer__contacts-item:not(:first-child) {
   margin-top: 9px;
 }
 
-.address-list--link-white {
+.footer__contacts-link--white {
   color: var(--white-text);
   font-weight: 400;
   font-size: 14px;
@@ -435,11 +434,11 @@ button {
   transition: color 250ms var(--cubic);
 }
 
-.address-list--link-white:hover, .address-list--link-white:focus {
+.footer__contacts-link--white:hover, .footer__contacts-link--white:focus {
   color: var(--back-blue);
 }
 
-.address-list--link-grey {
+.footer__contacts-link {
   color: var(--grey-text-op60);
   font-weight: 400;
   font-size: 14px;
@@ -449,7 +448,7 @@ button {
   transition: color 250ms var(--cubic);
 }
 
-.address-list--link-grey:hover, .address-list--link-grey:focus {
+.footer__contacts-link:hover, .footer__contacts-link:focus {
   color: var(--back-blue);
 }
 
@@ -465,7 +464,7 @@ button {
 }
 
 .about-us__title,
-.our-team__title {
+.team__title {
   color: var(--black-text);
   font-weight: 700;
   font-size: 36px;
@@ -479,7 +478,7 @@ button {
   margin: 94px auto;
 }
 
-.portfolio__filters {
+.filters {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -489,11 +488,11 @@ button {
   margin-bottom: 50px;
 }
 
-.portfolio__item:not(:first-child) {
+.filters__item:not(:first-child) {
   margin-left: 8px;
 }
 
-.portfolio__btn {
+.filters__button {
   background: var(--back-light-grey);
   color: var(--black-text);
   font-weight: 500;
@@ -508,7 +507,7 @@ button {
   transition: color 250ms var(--cubic), background-color 250ms var(--cubic), box-shadow 250ms var(--cubic), -webkit-box-shadow 250ms var(--cubic);
 }
 
-.portfolio__btn:hover, .portfolio__btn:focus {
+.filters__button:hover, .filters__button:focus {
   background: var(--back-blue);
   font-weight: 500;
   font-size: 16px;
@@ -529,26 +528,26 @@ button {
   margin-top: -30px;
 }
 
-.project-list__item {
+.project__item {
   -ms-flex-preferred-size: calc(100% / 3 - 30px);
       flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.project-list__item:hover, .project-list__item:focus {
+.project__item:hover, .project__item:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.project-list__content {
+.project__content {
   padding: 20px 24px;
   border-right: 1px solid var(--border-light-grey2);
   border-bottom: 1px solid var(--border-light-grey2);
   border-left: 1px solid var(--border-light-grey2);
 }
 
-.project-list__title {
+.project__title {
   color: var(--black-text);
   font-weight: 700;
   font-size: 18px;
@@ -556,7 +555,7 @@ button {
   letter-spacing: 0.06em;
 }
 
-.project-list__type {
+.project__type {
   color: var(--grey-text);
   font-weight: 400;
   font-size: 16px;
@@ -565,7 +564,7 @@ button {
   margin-top: 4px;
 }
 
-.project-list__thumb {
+.project__thumb {
   position: relative;
   overflow: hidden;
 }
@@ -609,7 +608,7 @@ button {
   background: var(--back-light-black-op80);
 }
 
-.advantages-section {
+.advantages {
   padding: 94px 0;
 }
 
@@ -840,7 +839,7 @@ button {
   margin-right: auto;
 }
 
-.regular__customers {
+.customers__container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -974,11 +973,11 @@ button {
   margin-right: -10px;
 }
 
-.join__link {
+.join__item {
   margin-right: 10px;
 }
 
-.join__link-icon {
+.join__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -997,7 +996,7 @@ button {
   transition: fill 250ms var(--cubic), background-color 250ms var(--cubic);
 }
 
-.join__link-icon:hover, .join__link-icon:focus {
+.join__link:hover, .join__link:focus {
   background-color: var(--back-blue);
 }
 
@@ -1049,7 +1048,7 @@ button {
   fill: var(--back-blue);
 }
 
-.header__main-link {
+.header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1058,7 +1057,16 @@ button {
           align-items: center;
 }
 
-.header--logo-black {
+.header__navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header--logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -1070,7 +1078,7 @@ button {
   color: var(--back-blue);
 }
 
-.site-nav__link-black {
+.nav__link {
   position: relative;
   color: var(--black-text);
   font-weight: 500;
@@ -1081,22 +1089,22 @@ button {
   transition: color 250ms var(--cubic);
 }
 
-.site-nav--current:visited {
+.nav--current:visited {
   color: var(--back-blue);
 }
 
-.site-nav {
+.nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: 93px;
 }
 
-.site-nav__item:not(:last-child) {
+.nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav__item {
+.nav__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1106,12 +1114,12 @@ button {
   text-align: center;
 }
 
-.site-nav__link-black:hover,
-.site-nav__link-black:focus {
+.nav__link:hover,
+.nav__link:focus {
   color: var(--back-blue);
 }
 
-.site-nav__link-black::after {
+.nav__link::after {
   content: '';
   position: absolute;
   display: block;
@@ -1128,11 +1136,11 @@ button {
   opacity: 0;
 }
 
-.site-nav--current.site-nav__link-black::after {
+.nav--current.nav__link::after {
   opacity: 1;
 }
 
-.site-nav__link-black:hover.site-nav__link-black::after {
+.nav__link-black:hover.nav__link::after {
   opacity: 1;
 }
 
@@ -1252,7 +1260,7 @@ button {
 }
 
 /* Team icons list*/
-.team-list__team-icons-list {
+.social__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1264,7 +1272,7 @@ button {
           justify-content: space-between;
 }
 
-.team-list__link {
+.social__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1283,16 +1291,16 @@ button {
   transition: fill 250ms var(--cubic), background-color 250ms var(--cubic);
 }
 
-.team-list__link:hover, .team-list__link:focus {
+.social__link:hover, .social__link:focus {
   background-color: var(--back-blue);
   fill: var(--white-text);
 }
 
-.our-team {
+.team {
   background: var(--back-light-grey);
 }
 
-.our-team__cont {
+.team__container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -1304,24 +1312,24 @@ button {
   margin-left: -30px;
 }
 
-.our-team__item {
+.team__item {
   -ms-flex-preferred-size: calc(100% / 4 - 30px);
       flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
 
-.our-team__item {
+.team__item {
   background-color: var(--white-text);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.our-team__descriptions {
+.team__descriptions {
   padding: 30px 32px;
 }
 
-.our-team__members {
+.team__members {
   color: var(--black-text);
   font-weight: 500;
   font-size: 16px;
@@ -1331,7 +1339,7 @@ button {
   text-align: center;
 }
 
-.our-team__position {
+.team__position {
   color: var(--grey-text);
   font-weight: 400;
   font-size: 16px;

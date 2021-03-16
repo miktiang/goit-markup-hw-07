@@ -1,10 +1,15 @@
 // Site navigation in index.html and portfolio.html
-.header__main-link {
+.header__container {
   display: flex;
   align-items: center;
 }
 
-.header--logo-black {
+.header__navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header--logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -16,7 +21,7 @@
   color: var(--back-blue);
 }
   
-.site-nav__link-black {
+.nav__link {
   position: relative;
   
   color: var(--black-text);
@@ -28,31 +33,31 @@
   transition: color 250ms var(--cubic);
 }
   
-.site-nav--current:visited {
+.nav--current:visited {
   color: var(--back-blue);
 }
 
-.site-nav {
+.nav-list {
   display: flex;
   margin-left: 93px;
 }
   
-.site-nav__item:not(:last-child) {
+.nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav__item {
+.nav__item {
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
-.site-nav__link-black:hover,
-.site-nav__link-black:focus {
+.nav__link:hover,
+.nav__link:focus {
   color: var(--back-blue);
 }
 
-.site-nav__link-black::after {
+.nav__link::after {
   content: '';
   position: absolute;
   display: block;
@@ -71,10 +76,10 @@
   opacity: 0;
 }
   
-.site-nav--current.site-nav__link-black::after {
+.nav--current.nav__link::after {
   opacity: 1;
 }
   
-.site-nav__link-black:hover.site-nav__link-black::after {
+.nav__link-black:hover.nav__link::after {
   opacity: 1;
 }
